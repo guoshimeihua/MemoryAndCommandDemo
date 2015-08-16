@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+/**
+ *  备忘录模式与命令模式demo，参考别人的demo改进而来的。
+ */
 
 @end
 

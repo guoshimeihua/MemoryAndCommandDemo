@@ -490,6 +490,7 @@
 				32D49C371B806C610041988D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32D49C381B806C610041988D /* Build configuration list for PBXNativeTarget "MemoryAndCommandDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +499,7 @@
 				32D49C3A1B806C610041988D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
