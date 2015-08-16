@@ -14,6 +14,13 @@
 		32D49C231B806C610041988D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32D49C221B806C610041988D /* Images.xcassets */; };
 		32D49C261B806C610041988D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32D49C241B806C610041988D /* LaunchScreen.xib */; };
 		32D49C321B806C610041988D /* MemoryAndCommandDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D49C311B806C610041988D /* MemoryAndCommandDemoTests.m */; };
+		32D49C3E1B806CA50041988D /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D49C3D1B806CA50041988D /* Album.m */; };
+		32D49C421B8072200041988D /* Album+TableRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D49C411B8072200041988D /* Album+TableRepresentation.m */; };
+		32D49C461B8075340041988D /* AlbumView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D49C451B8075340041988D /* AlbumView.m */; };
+		32D49C491B807CF90041988D /* HorizontalScroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D49C481B807CF90041988D /* HorizontalScroller.m */; };
+		32D49C4D1B808F970041988D /* HTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D49C4C1B808F970041988D /* HTTPClient.m */; };
+		32D49C501B8090F60041988D /* PersistencyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D49C4F1B8090F60041988D /* PersistencyManager.m */; };
+		32D49C531B8098B60041988D /* LibraryAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D49C521B8098B60041988D /* LibraryAPI.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +47,20 @@
 		32D49C2B1B806C610041988D /* MemoryAndCommandDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoryAndCommandDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32D49C301B806C610041988D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32D49C311B806C610041988D /* MemoryAndCommandDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoryAndCommandDemoTests.m; sourceTree = "<group>"; };
+		32D49C3C1B806CA50041988D /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Album.h; sourceTree = "<group>"; };
+		32D49C3D1B806CA50041988D /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Album.m; sourceTree = "<group>"; };
+		32D49C401B8072200041988D /* Album+TableRepresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Album+TableRepresentation.h"; sourceTree = "<group>"; };
+		32D49C411B8072200041988D /* Album+TableRepresentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Album+TableRepresentation.m"; sourceTree = "<group>"; };
+		32D49C441B8075340041988D /* AlbumView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumView.h; sourceTree = "<group>"; };
+		32D49C451B8075340041988D /* AlbumView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumView.m; sourceTree = "<group>"; };
+		32D49C471B807CF90041988D /* HorizontalScroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalScroller.h; sourceTree = "<group>"; };
+		32D49C481B807CF90041988D /* HorizontalScroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalScroller.m; sourceTree = "<group>"; };
+		32D49C4B1B808F970041988D /* HTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPClient.h; sourceTree = "<group>"; };
+		32D49C4C1B808F970041988D /* HTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPClient.m; sourceTree = "<group>"; };
+		32D49C4E1B8090F60041988D /* PersistencyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersistencyManager.h; sourceTree = "<group>"; };
+		32D49C4F1B8090F60041988D /* PersistencyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersistencyManager.m; sourceTree = "<group>"; };
+		32D49C511B8098B60041988D /* LibraryAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibraryAPI.h; sourceTree = "<group>"; };
+		32D49C521B8098B60041988D /* LibraryAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LibraryAPI.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +102,10 @@
 		32D49C141B806C610041988D /* MemoryAndCommandDemo */ = {
 			isa = PBXGroup;
 			children = (
+				32D49C3F1B8071D20041988D /* Category */,
+				32D49C3B1B806C850041988D /* Model */,
+				32D49C431B80750F0041988D /* View */,
+				32D49C4A1B808F440041988D /* API */,
 				32D49C191B806C610041988D /* AppDelegate.h */,
 				32D49C1A1B806C610041988D /* AppDelegate.m */,
 				32D49C1C1B806C610041988D /* ViewController.h */,
@@ -117,6 +142,48 @@
 				32D49C301B806C610041988D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32D49C3B1B806C850041988D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				32D49C3C1B806CA50041988D /* Album.h */,
+				32D49C3D1B806CA50041988D /* Album.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		32D49C3F1B8071D20041988D /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				32D49C401B8072200041988D /* Album+TableRepresentation.h */,
+				32D49C411B8072200041988D /* Album+TableRepresentation.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		32D49C431B80750F0041988D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				32D49C441B8075340041988D /* AlbumView.h */,
+				32D49C451B8075340041988D /* AlbumView.m */,
+				32D49C471B807CF90041988D /* HorizontalScroller.h */,
+				32D49C481B807CF90041988D /* HorizontalScroller.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		32D49C4A1B808F440041988D /* API */ = {
+			isa = PBXGroup;
+			children = (
+				32D49C4B1B808F970041988D /* HTTPClient.h */,
+				32D49C4C1B808F970041988D /* HTTPClient.m */,
+				32D49C4E1B8090F60041988D /* PersistencyManager.h */,
+				32D49C4F1B8090F60041988D /* PersistencyManager.m */,
+				32D49C511B8098B60041988D /* LibraryAPI.h */,
+				32D49C521B8098B60041988D /* LibraryAPI.m */,
+			);
+			name = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,7 +288,14 @@
 			files = (
 				32D49C1E1B806C610041988D /* ViewController.m in Sources */,
 				32D49C1B1B806C610041988D /* AppDelegate.m in Sources */,
+				32D49C501B8090F60041988D /* PersistencyManager.m in Sources */,
+				32D49C491B807CF90041988D /* HorizontalScroller.m in Sources */,
+				32D49C531B8098B60041988D /* LibraryAPI.m in Sources */,
+				32D49C461B8075340041988D /* AlbumView.m in Sources */,
 				32D49C181B806C610041988D /* main.m in Sources */,
+				32D49C421B8072200041988D /* Album+TableRepresentation.m in Sources */,
+				32D49C4D1B808F970041988D /* HTTPClient.m in Sources */,
+				32D49C3E1B806CA50041988D /* Album.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
